@@ -22,7 +22,7 @@ body {
 .movie-list {
   display: flex;
   flex-flow: row wrap;
-  padding: 48px 30px;
+  padding: 0 3%;
 }
 
 .movie-card {
@@ -80,4 +80,34 @@ body {
   display: flex;
   justify-content: flex-end;
   padding: 12px 20px;
+}
+
+.sub {
+  margin: 20px 3%;
+}
+
+.formulario {
+  margin: 30px 3%;
+  width: 94%;
+}
+
+.caixaInput {
+  height: 25px;
+  width: 100%;
+}
+
+.caixaInputTexterea {
+  height: 50px;
+  width: 100%;
+}
+
+.caixaCheck {
+  height: 20px;
+  margin: 5px 5px 5px 0;
+  width: 20px;
+}
+
+.botao {
+  background-color: #343a40;
+  color: white;
 }
